@@ -1,39 +1,39 @@
 
-# 🩺 Oral Cancer Detection using Deep Learning (CNN & Image Processing)
+# 🩺 Oral Cancer Detection using Machine Learning (CNN & Image Processing)
 
 This project focuses on building an AI-powered system for early detection of Oral Cancer using Deep Learning and Computer Vision techniques. The model classifies oral cavity images into Benign (Non-Cancerous) or Malignant (Cancerous) categories and provides a confidence score.
 The system also integrates image preprocessing, lesion segmentation, and a user-friendly interface for real-time prediction.
-## 📷 Screenshots
+# 📷 Screenshots
 
-### Example 1:
+## Example 1:
 
-1. Upload Image Page
+### Upload Image Page
 
 ![App Screenshot](https://raw.githubusercontent.com/Soujanya-R/Oral-Cancer-Detector/refs/heads/main/ima/Screenshot%202025-09-03%20202239.png)
 
-2. Image Preview 
+### Image Preview 
 ![App Screenshot](https://raw.githubusercontent.com/Soujanya-R/Oral-Cancer-Detector/refs/heads/main/ima/Screenshot%202025-09-03%20202123.png)
 
-3. Segmented Mask
+### Segmented Mask
 ![App Screenshot](https://raw.githubusercontent.com/Soujanya-R/Oral-Cancer-Detector/refs/heads/main/ima/Screenshot%202025-09-03%20202116.png)
 
-4. Detection Result – Negative
+### Detection Result – Negative
 ![App Screenshot](https://raw.githubusercontent.com/Soujanya-R/Oral-Cancer-Detector/refs/heads/main/ima/Screenshot%202025-09-03%20202254.png)
 
-### Example 2:
-1. Upload Image Page
+## Example 2:
+### Upload Image Page
 ![App Screenshot](https://raw.githubusercontent.com/Soujanya-R/Oral-Cancer-Detector/refs/heads/main/ima/Screenshot%202025-09-03%20202506.png)
 
-2. Segmented Mask
+### Segmented Mask
 ![App Screenshot](https://raw.githubusercontent.com/Soujanya-R/Oral-Cancer-Detector/refs/heads/main/ima/Screenshot%202025-09-03%20202545.png)
 
-3. Detection Result – Positive
+### Detection Result – Positive
 ![App Screenshot](https://raw.githubusercontent.com/Soujanya-R/Oral-Cancer-Detector/refs/heads/main/ima/Screenshot%202025-09-03%20202517.png)
 
-4. Training Plot
+### Training Plot
 ![App Screenshot](https://raw.githubusercontent.com/Soujanya-R/Oral-Cancer-Detector/refs/heads/main/ima/Screenshot%202025-09-03%20202138.png)
 
-5.Correlation Heatmap of Selected Features
+### Correlation Heatmap of Selected Features
 ![App Screenshot](https://raw.githubusercontent.com/Soujanya-R/Oral-Cancer-Detector/refs/heads/main/ima/Screenshot%202025-09-03%20202056.png)
 ## ✨ Features
 
