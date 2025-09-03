@@ -7,33 +7,33 @@ The system also integrates image preprocessing, lesion segmentation, and a user-
 
 ## Example 1:
 
-### Upload Image Page
+### 1.  Upload Image Page
 
 ![App Screenshot](https://raw.githubusercontent.com/Soujanya-R/Oral-Cancer-Detector/refs/heads/main/ima/Screenshot%202025-09-03%20202239.png)
 
-### Image Preview 
+### 2.  Image Preview 
 ![App Screenshot](https://raw.githubusercontent.com/Soujanya-R/Oral-Cancer-Detector/refs/heads/main/ima/Screenshot%202025-09-03%20202123.png)
 
-### Segmented Mask
+### 3. Segmented Mask
 ![App Screenshot](https://raw.githubusercontent.com/Soujanya-R/Oral-Cancer-Detector/refs/heads/main/ima/Screenshot%202025-09-03%20202116.png)
 
-### Detection Result – Negative
+### 4.  Detection Result – Negative
 ![App Screenshot](https://raw.githubusercontent.com/Soujanya-R/Oral-Cancer-Detector/refs/heads/main/ima/Screenshot%202025-09-03%20202254.png)
 
 ## Example 2:
-### Upload Image Page
+### 1. Upload Image Page
 ![App Screenshot](https://raw.githubusercontent.com/Soujanya-R/Oral-Cancer-Detector/refs/heads/main/ima/Screenshot%202025-09-03%20202506.png)
 
-### Segmented Mask
+### 2. Segmented Mask
 ![App Screenshot](https://raw.githubusercontent.com/Soujanya-R/Oral-Cancer-Detector/refs/heads/main/ima/Screenshot%202025-09-03%20202545.png)
 
-### Detection Result – Positive
+### 3. Detection Result – Positive
 ![App Screenshot](https://raw.githubusercontent.com/Soujanya-R/Oral-Cancer-Detector/refs/heads/main/ima/Screenshot%202025-09-03%20202517.png)
 
-### Training Plot
+### 4. Training Plot
 ![App Screenshot](https://raw.githubusercontent.com/Soujanya-R/Oral-Cancer-Detector/refs/heads/main/ima/Screenshot%202025-09-03%20202138.png)
 
-### Correlation Heatmap of Selected Features
+### 5. Correlation Heatmap of Selected Features
 ![App Screenshot](https://raw.githubusercontent.com/Soujanya-R/Oral-Cancer-Detector/refs/heads/main/ima/Screenshot%202025-09-03%20202056.png)
 ## ✨ Features
 
