@@ -5,7 +5,6 @@ import pandas as pd
 from skimage.feature import graycomatrix, graycoprops
 from skimage.feature import local_binary_pattern
 
-# ===== GLCM Features =====
 def glcm_features(gray):
     glcm = graycomatrix(gray, distances=[1], angles=[0], levels=256, symmetric=True, normed=True)
     features = {
@@ -16,7 +15,6 @@ def glcm_features(gray):
     }
     return features
 
-# ===== Color Features =====
 def color_stats(image):
     features = {}
     color_spaces = {'RGB': image, 'HSV': cv2.cvtColor(image, cv2.COLOR_BGR2HSV), 'YCbCr': cv2.cvtColor(image, cv2.COLOR_BGR2YCrCb)}
@@ -27,28 +25,24 @@ def color_stats(image):
             features[f'{space}_std_{c}'] = np.std(chans[i])
     return features
 
-# ===== Feature Extractor =====
 def extract_features(img_path):
     image = cv2.imread(img_path)
     if image is None:
-        print("❌ Cannot read:", img_path)
+        print("Cannot read:", img_path)
         return None
 
     gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
     features = {}
 
-    # Add label (M or B)
     filename = os.path.basename(img_path)
     features['label'] = 'malignant' if filename.startswith('M') else 'benign'
     features['filename'] = filename
 
-    # Extract features
     features.update(glcm_features(gray))
     features.update(color_stats(image))
 
     return features
 
-# ===== Main =====
 seg_dir = 'data/segmented_lesions/'
 output_csv = 'features.csv'
 
@@ -60,7 +54,6 @@ for file in os.listdir(seg_dir):
         if feat:
             data.append(feat)
 
-# Save to CSV
 df = pd.DataFrame(data)
 df.to_csv(output_csv, index=False)
-print(f"✅ Features saved to {output_csv}")
+print(f"Features saved to {output_csv}")
