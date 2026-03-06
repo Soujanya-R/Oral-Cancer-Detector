@@ -35,6 +35,13 @@ The system also integrates image preprocessing, lesion segmentation, and a user-
 
 ### 5. Correlation Heatmap of Selected Features
 ![App Screenshot](https://raw.githubusercontent.com/Soujanya-R/Oral-Cancer-Detector/refs/heads/main/ima/Screenshot%202025-09-03%20202056.png)
+
+### 6. Website
+![App Screenshot](https://raw.githubusercontent.com/Soujanya-R/Oral-Cancer-Detector/refs/heads/main/Screenshot%202026-02-05%20150524.png)
+![App Screenshot](https://raw.githubusercontent.com/Soujanya-R/Oral-Cancer-Detector/refs/heads/main/Screenshot%202026-02-05%20150542.png)
+![App Screenshot](https://raw.githubusercontent.com/Soujanya-R/Oral-Cancer-Detector/refs/heads/main/Screenshot%202026-02-05%20150918.png)
+![App Screenshot](https://raw.githubusercontent.com/Soujanya-R/Oral-Cancer-Detector/refs/heads/main/Screenshot%202026-02-05%20150950.png)
+![App Screenshot](https://raw.githubusercontent.com/Soujanya-R/Oral-Cancer-Detector/refs/heads/main/Screenshot%202026-02-05%20151008.png)
 ## ✨ Features
 
 - End-to-End Deep Learning Pipeline
